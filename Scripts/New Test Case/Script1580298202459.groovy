@@ -30,4 +30,5 @@ InfoRequestPage vInfoRequestPage = new InfoRequestPage()
 vInfoRequestPage.EnterDetails(Txt_FirstName, Txt_SecondName, Txt_CompanyName, Txt_Zipcode)
 
 vInfoRequestPage.CompareAndClick()
+ println("hi im vidya")
 

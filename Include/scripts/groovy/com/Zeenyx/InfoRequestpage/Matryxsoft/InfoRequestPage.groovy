@@ -69,13 +69,16 @@ class InfoRequestPage {
 		//String Txt_SecondName = "Shri"
 		//String Txt_CompanyName ="Matryxsoft"
 		//String Txt_ZipCode ="560094"
-		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_FirstName'), Txt_FirstName)
+		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_FirstName'), findTestData("New Test Data").getValue(1, 1))
 
-		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_LastName'), Txt_SecondName)
+		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_LastName'), findTestData("New Test Data").getValue(2, 1))
 
-		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_CompanyName'), Txt_CompanyName)
 
-		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_ZipCode'), Txt_Zipcode)
+		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_CompanyName'), findTestData("New Test Data").getValue(3, 1))
+
+
+		WebUI.setText(findTestObject('Zeenyx/Zeenyx InformationRequest_Page/Txt_ZipCode'), findTestData("New Test Data").getValue(4, 1))
+
 	}
 
 

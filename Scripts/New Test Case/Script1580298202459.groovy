@@ -14,14 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.Zeenyx.Homepage.Matryxsoft.ZeenyxHomePage as ZeenyxHomePage
 import com.Zeenyx.InfoRequestpage.Matryxsoft.InfoRequestPage as InfoRequestPage
-import TestListener.NewTestListener as NewTestListener
 
-NewTestListener vNewTestListener= new NewTestListener()
+
+
 
 
 ZeenyxHomePage vZeenyxHomePage = new ZeenyxHomePage()
 
-//vZeenyxHomePage.OpenBrowser()
+vZeenyxHomePage.OpenBrowser()
 
 vZeenyxHomePage.ClickOnInfoRequest()
 

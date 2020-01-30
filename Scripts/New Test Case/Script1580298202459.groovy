@@ -32,3 +32,4 @@ vInfoRequestPage.EnterDetails(Txt_FirstName, Txt_SecondName, Txt_CompanyName, Tx
 vInfoRequestPage.CompareAndClick()
  println("hi im vidya")
 
+ println("Katalon")

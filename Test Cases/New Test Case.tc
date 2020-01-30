@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7373b5c3-03ba-49b0-abe9-04b13d0f69cd</testCaseGuid>
+   <variable>
+      <defaultValue>'Vidya'</defaultValue>
+      <description></description>
+      <id>efef48b8-9f7a-4770-b81c-f9c3641b868b</id>
+      <masked>false</masked>
+      <name>Txt_FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Shri'</defaultValue>
+      <description></description>
+      <id>64420f3a-325b-4f5b-b275-ed93b7a151c3</id>
+      <masked>false</masked>
+      <name>Txt_SecondName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Matryxsoft'</defaultValue>
+      <description></description>
+      <id>73093952-880e-4cdc-9ffa-0401513c5a0a</id>
+      <masked>false</masked>
+      <name>Txt_CompanyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'56009'</defaultValue>
+      <description></description>
+      <id>16bbf478-44fc-410a-94ee-c6f2fdc1c8f0</id>
+      <masked>false</masked>
+      <name>Txt_Zipcode</name>
+   </variable>
+</TestCaseEntity>

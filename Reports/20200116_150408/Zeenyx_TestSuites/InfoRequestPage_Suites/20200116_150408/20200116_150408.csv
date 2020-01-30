@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+InfoRequestPage_Suites,Firefox 72.0,Send Info request to Zeenyx,,2020-01-16 15:04:11,2020-01-16 15:04:49,37.637s,INCOMPLETE
+,,,,,,,
+Test Cases/Zeenyx/HomePage,Firefox 72.0,Navigating to Zeenyx Info request page,,2020-01-16 15:04:11,2020-01-16 15:04:32,21.129s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-16 15:04:12,2020-01-16 15:04:16,4.872s,PASSED
+"navigateToUrl(""http://www.zeenyx.com/"")",Firefox 72.0,,,2020-01-16 15:04:16,2020-01-16 15:04:24,7.647s,PASSED
+"mouseOver(findTestObject(""Zeenyx/ZeenyxMainPage/Lnk_CONTACT""))",Firefox 72.0,,,2020-01-16 15:04:24,2020-01-16 15:04:24,0.312s,PASSED
+"waitForElementVisible(findTestObject(""Zeenyx/ZeenyxMainPage/Lnk_Info Request""), 5)",Firefox 72.0,,,2020-01-16 15:04:24,2020-01-16 15:04:30,5.306s,PASSED
+"click(findTestObject(""Zeenyx/ZeenyxMainPage/Lnk_Info Request""))",Firefox 72.0,,,2020-01-16 15:04:30,2020-01-16 15:04:32,2.563s,PASSED
+"bPresent = waitForElementVisible(findTestObject(""Object Repository/Zeenyx/Zeenyx InformationRequest_Page/Txt_FirstName""), 5)",Firefox 72.0,,,2020-01-16 15:04:32,2020-01-16 15:04:32,0.132s,PASSED
+if (bPresent == true),Firefox 72.0,,,2020-01-16 15:04:32,2020-01-16 15:04:32,0.003s,PASSED
+,,,,,,,
+Test Cases/InfoRequest/EnterDetails_ZeenyxInfoRequestPage,Firefox 72.0,Enter details in Zeenyx information page,,2020-01-16 15:04:32,2020-01-16 15:04:49,16.315s,PASSED
+driver = getWebDriver(),Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.002s,PASSED
+"setText(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Txt_FirstName""), FirstName)",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.153s,PASSED
+"setText(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Txt_LastName""), SecondName)",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.101s,PASSED
+"setText(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Txt_CompanyName""), CompanyName)",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.108s,PASSED
+"setText(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Txt_ZipCode""), ZipCode)",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.101s,PASSED
+"iNo_States = getNumberOfTotalOption(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Pop_State""))",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.138s,PASSED
+"sSearchState = ""WA""",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.001s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:33,0.001s,PASSED
+"for ([i = 1, i <= iNo_States, (i++)])",Firefox 72.0,,,2020-01-16 15:04:33,2020-01-16 15:04:44,10.913s,ERROR
+"click(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Rbn_RequestType""))",Firefox 72.0,,,2020-01-16 15:04:44,2020-01-16 15:04:44,0.279s,PASSED
+"click(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Chk_FirstTimeContact""))",Firefox 72.0,,,2020-01-16 15:04:44,2020-01-16 15:04:45,0.303s,PASSED
+closeBrowser(),Firefox 72.0,,,2020-01-16 15:04:45,2020-01-16 15:04:49,3.990s,PASSED

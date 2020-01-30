@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigating to Zeenyx Info request page</description>
+   <name>HomePage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7816c16-b17f-4dff-a7d7-e4fa92f1c6bc</testCaseGuid>
+   <variable>
+      <defaultValue>'http://www.zeenyx.com/'</defaultValue>
+      <description></description>
+      <id>5c222fed-8110-4933-9cdf-63f08487fdca</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

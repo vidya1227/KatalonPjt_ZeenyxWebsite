@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>New Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>5d4ec643-1359-4076-a6cf-a3eb48ec3a96</testSuiteGuid>
+   <testCaseLink>
+      <guid>4a948d3d-3b2c-48c6-a725-b520e572a55f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Zeenyx/HomePage</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5c222fed-8110-4933-9cdf-63f08487fdca</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>569691dd-20c5-427b-9466-05672199850f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/InfoRequest/EnterDetails_ZeenyxInfoRequestPage</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42fcdc56-9cb0-4a76-9656-fb0fb8cbc680</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>77bea727-3a56-40db-a847-75e32e51c5c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c3d2081-bf9b-4a50-874c-0833e49796b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9debc98f-34f3-46a6-8248-683f53fe2083</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

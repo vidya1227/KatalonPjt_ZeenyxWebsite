@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2020-01-16 12:22:54,2020-01-16 12:22:55,0.848s,INCOMPLETE
+,,,,,,,
+Test Cases/Zeenyx/HomePage,,Navigating to Zeenyx Info request page,,2020-01-16 12:22:55,2020-01-16 12:22:55,0.322s,ERROR
+"callTestCase(findTestCase(""Common_TestCases/NavigateApplication""), [:], STOP_ON_FAILURE)",,,,2020-01-16 12:22:55,2020-01-16 12:22:55,0.004s,PASSED
+,,,,,,,
+Test Cases/InfoRequest/EnterDetails_ZeenyxInfoRequestPage,,Enter details in Zeenyx information page,,2020-01-16 12:22:55,2020-01-16 12:22:55,0.283s,ERROR

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Firefox 72.0,,,2020-01-16 13:13:28,2020-01-16 13:14:00,31.338s,INCOMPLETE
+,,,,,,,
+Test Cases/Zeenyx/HomePage,Firefox 72.0,Navigating to Zeenyx Info request page,,2020-01-16 13:13:29,2020-01-16 13:13:59,30.895s,PASSED
+"openBrowser("""")",Firefox 72.0,,,2020-01-16 13:13:29,2020-01-16 13:13:37,8.021s,PASSED
+"navigateToUrl(""http://www.zeenyx.com/"")",Firefox 72.0,,,2020-01-16 13:13:37,2020-01-16 13:13:46,9.619s,PASSED
+"mouseOver(findTestObject(""Zeenyx/ZeenyxMainPage/Lnk_CONTACT""))",Firefox 72.0,,,2020-01-16 13:13:46,2020-01-16 13:13:47,0.315s,PASSED
+delay(5),Firefox 72.0,,,2020-01-16 13:13:47,2020-01-16 13:13:52,5.017s,PASSED
+"click(findTestObject(""Zeenyx/ZeenyxMainPage/Lnk_Info Request""))",Firefox 72.0,,,2020-01-16 13:13:52,2020-01-16 13:13:54,2.552s,PASSED
+delay(5),Firefox 72.0,,,2020-01-16 13:13:54,2020-01-16 13:13:59,5.003s,PASSED
+"bPresent = verifyElementPresent(findTestObject(""Zeenyx/Zeenyx InformationRequest_Page/Lbl_Information Request""), 5)",Firefox 72.0,,,2020-01-16 13:13:59,2020-01-16 13:13:59,0.098s,PASSED
+println(bPresent),Firefox 72.0,,,2020-01-16 13:13:59,2020-01-16 13:13:59,0.000s,PASSED
+if (bPresent == true),Firefox 72.0,,,2020-01-16 13:13:59,2020-01-16 13:13:59,0.000s,PASSED
+,,,,,,,
+Test Cases/InfoRequest/EnterDetails_ZeenyxInfoRequestPage,Firefox 72.0,Enter details in Zeenyx information page,,2020-01-16 13:13:59,2020-01-16 13:14:00,0.237s,ERROR

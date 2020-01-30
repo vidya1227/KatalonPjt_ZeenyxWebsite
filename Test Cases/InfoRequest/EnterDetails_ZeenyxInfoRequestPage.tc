@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter details in Zeenyx information page</description>
+   <name>EnterDetails_ZeenyxInfoRequestPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e950f498-5a6f-48c5-b77e-4e1873afee64</testCaseGuid>
+   <variable>
+      <defaultValue>'Nagarjuna'</defaultValue>
+      <description></description>
+      <id>42fcdc56-9cb0-4a76-9656-fb0fb8cbc680</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Napa'</defaultValue>
+      <description></description>
+      <id>77bea727-3a56-40db-a847-75e32e51c5c3</id>
+      <masked>false</masked>
+      <name>SecondName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Matryxsoft'</defaultValue>
+      <description></description>
+      <id>8c3d2081-bf9b-4a50-874c-0833e49796b2</id>
+      <masked>false</masked>
+      <name>CompanyName</name>
+   </variable>
+   <variable>
+      <defaultValue>'560092'</defaultValue>
+      <description></description>
+      <id>9debc98f-34f3-46a6-8248-683f53fe2083</id>
+      <masked>false</masked>
+      <name>ZipCode</name>
+   </variable>
+</TestCaseEntity>
